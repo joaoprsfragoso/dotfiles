@@ -4,3 +4,5 @@
 	signingkey = A219F4245E1AC30A
 [color]
 	ui = auto
+[gpg]
+	program = gpg2
