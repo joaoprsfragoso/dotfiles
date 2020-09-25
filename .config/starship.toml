@@ -1,0 +1,13 @@
+[character]
+symbol = "⚡"
+vicmd_symbol = "🔥"
+
+[kubernetes]
+disabled = false
+
+[docker_context]
+disabled = false
+
+[jobs]
+symbol = "⚒️  "
+
