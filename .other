@@ -1,0 +1,4 @@
+export PATH="${PATH}:${HOME}/.krew/bin"
+
+gpgconf --launch gpg-agent
+
