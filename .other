@@ -1,4 +1,8 @@
-export PATH="${PATH}:${HOME}/.krew/bin"
+export XDG_CURRENT_DESKTOP=sway
+export PATH="${PATH}:${HOME}/.krew/bin:${HOME}/.cargo/bin"
 
 gpgconf --launch gpg-agent
 
+source /usr/share/nvm/init-nvm.sh
+
+eval $(rustup completions zsh)
